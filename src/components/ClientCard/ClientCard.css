@@ -1,0 +1,69 @@
+.client-card{
+    padding: 25px;
+    background-color: #fff;
+    border-radius: 10px;
+    max-width: 370px;
+}
+.client-card .stars{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--primary-color);
+    margin-bottom: 13px;
+}
+.client-card .stars svg{
+    width: 20px;
+    height: 20px;
+    margin-right: 13px;
+}
+.client-card .client-comment{
+    font-size: 1em;
+    line-height: 24px;
+    font-weight: 400;
+    color: var(--gray-color);
+    margin-bottom: 25px;
+}
+.client-card .client-profil{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.client-card .client-profil .profil{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+.client-card .client-profil .profil img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.client-card .client-profil .profil .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1px;
+}
+.client-card .client-profil .profil .info .name{
+    color: var(--primary-color);
+    font-size: 1.25em;
+    font-weight: 500;
+    line-height: 30px;
+}
+.client-card .client-profil .profil .info .function{
+    color: var(--gray-color);
+    font-size: .8em;
+    font-weight: 300;
+    line-height: 19.2px;
+}
+.client-card .client-profil span img{
+    width: 44px;
+    height: 34px;
+}
+@media (max-width:991px) {
+    .client-card-container{
+        justify-content: flex-start;
+    }
+}

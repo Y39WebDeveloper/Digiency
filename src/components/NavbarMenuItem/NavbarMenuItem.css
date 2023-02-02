@@ -1,0 +1,27 @@
+.nav-item {
+    margin-left: 29px;
+}
+.nav-item a{
+    color: var(--black-color);
+    font-weight: 500;
+    font-size: 1.25em;
+    transition: .3s;
+}
+.nav-item:hover a,
+.nav-item.active a{
+    color: var(--primary-color);
+}
+@media (max-width: 1199px) {
+    .nav-item a{
+        font-size: 1em;
+    }
+}
+@media (max-width: 991px) {
+    .nav-item {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .nav-item a{
+        font-size: 1em;
+    }
+}

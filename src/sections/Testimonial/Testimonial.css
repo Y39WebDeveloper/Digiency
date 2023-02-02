@@ -1,0 +1,22 @@
+.testimonial{
+    padding: 120px 0;
+    background-color: var(--section-bg);
+}
+.testimonial .section-title{
+    margin-bottom: 60px;
+}
+.testimonial .client-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 1fr));
+    grid-template-rows: 350px;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+@media (max-width: 1199px) {
+    .testimonial .client-card-container{
+        overflow-x: scroll;
+        justify-content: flex-start;
+    }
+}

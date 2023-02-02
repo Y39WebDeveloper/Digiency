@@ -1,0 +1,120 @@
+.capabilities{
+    padding: 120px 0;
+}
+.capabilities-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.capabilities-container .capabilities-content{
+    width: 50%;
+}
+.capabilities-container .capabilities-content .section-title-alt{
+    margin-bottom: 18px;
+}
+.capabilities-container .capabilities-content p{
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--gray-color);
+    margin-bottom: 40px;
+}
+.capabilities-container .capabilities-content .capabilities-stats{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.capabilities-img{
+    max-width: 50%;
+}
+.capabilities-img img{
+    max-width: 100%;
+    aspect-ratio: 8/5;
+}
+.statistic{
+    margin: 120px 0;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    padding: 69px  55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.statistic .statistic-item{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: fit-content;
+    height: 100%;
+    padding: 0 90px;
+    position: relative;
+}
+.statistic .statistic-item:not(:last-child)::after{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 171px;
+    border-radius: 47px;
+    background-color: #fff;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.statistic .statistic-item:first-child{
+    padding-left: 0;
+}
+.statistic .statistic-item:last-child{
+    padding-right: 0;
+}
+.statistic .statistic-item img{
+    width: 50%;
+    aspect-ratio: 1/1;
+    margin-bottom: 4px;
+}
+.statistic .statistic-item span{
+    font-size: 2.5em;
+    color: #fff;
+    font-weight: 600;
+    line-height: 58.59px;
+}
+.statistic .statistic-item p{
+    font-size: 1.25em;
+    font-weight: 500;
+    line-height: 30px;
+    color: #fff;
+}
+@media (max-width: 1199px) {
+    .statistic .statistic-item{
+        padding: 0 50px;
+    }
+}
+@media (max-width: 991px) {
+    .capabilities-img{
+        display: none;
+    }
+    .capabilities-container .capabilities-content{
+        width: 100%;
+    }
+    .statistic .statistic-item{
+        padding: 50px 40px;
+    }
+    .statistic{
+        flex-direction: column;
+    }
+    .statistic .statistic-item:not(:last-child)::after{
+        height: 3px;
+        width: 171px;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .statistic .statistic-item:first-child{
+        padding-left: 40px;
+    }
+    .statistic .statistic-item:last-child{
+        padding-right: 40px;
+    }
+}
