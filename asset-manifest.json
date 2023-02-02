@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/Digiency/static/css/main.fadbbc91.css",
+    "main.js": "/Digiency/static/js/main.199c5de2.js",
+    "static/media/project-7.png": "/Digiency/static/media/project-7.0bcfdce128b11009e644.png",
+    "static/media/project-3.png": "/Digiency/static/media/project-3.8f31d4b84ba06fb40307.png",
+    "static/media/footer-bg.png": "/Digiency/static/media/footer-bg.a47885d73368b84bf52e.png",
+    "static/media/project-4.png": "/Digiency/static/media/project-4.a0da3da345ea2b29f381.png",
+    "static/media/project-6.png": "/Digiency/static/media/project-6.19b79dcdecafbf2cde40.png",
+    "static/media/project-1.png": "/Digiency/static/media/project-1.41c3d593ec38bf97aa45.png",
+    "static/media/project-2.png": "/Digiency/static/media/project-2.4908e80c5ef34619d253.png",
+    "static/media/project-5.png": "/Digiency/static/media/project-5.dc571412acde2e82057b.png",
+    "static/media/project-9.png": "/Digiency/static/media/project-9.c2607aee5ad3d4ee4ea0.png",
+    "static/media/about-us.svg": "/Digiency/static/media/about-us.31e1825757ed5dc738067ebce84a52a5.svg",
+    "static/media/blog-2.png": "/Digiency/static/media/blog-2.e3eff981ece9333690ca.png",
+    "static/media/project-8.png": "/Digiency/static/media/project-8.21ea2605d63663c93810.png",
+    "static/media/hero-img.svg": "/Digiency/static/media/hero-img.3ab26eba12cd8d3e764a9dc0d21259b9.svg",
+    "static/media/blog-1.png": "/Digiency/static/media/blog-1.04845f47fe831c7fd6f7.png",
+    "static/media/blog-3.png": "/Digiency/static/media/blog-3.1629c8789986ae9239b9.png",
+    "static/media/capabilities-img.svg": "/Digiency/static/media/capabilities-img.437eddc8bedffba2972e2b754f6c3b33.svg",
+    "static/media/statistic-1.svg": "/Digiency/static/media/statistic-1.e241cfa689e848bfd65f720476c02c91.svg",
+    "static/media/statistic-3.svg": "/Digiency/static/media/statistic-3.f204f11d24622bca39d893fa737adfd9.svg",
+    "static/media/services-1.svg": "/Digiency/static/media/services-1.4611bd2836d97cc54dee6abd78ac2b02.svg",
+    "static/media/services-2.svg": "/Digiency/static/media/services-2.b06112ccd084a85f3ce991694eb16f35.svg",
+    "static/media/statistic-4.svg": "/Digiency/static/media/statistic-4.abcd9c619622fbc0e113461e949f7636.svg",
+    "static/media/statistic-2.svg": "/Digiency/static/media/statistic-2.61ca38de8cf1dbdf758ae0702d82e1e6.svg",
+    "static/media/services-3.svg": "/Digiency/static/media/services-3.f85e4cbd5173987f05f88089fb1ff164.svg",
+    "static/media/services-6.svg": "/Digiency/static/media/services-6.1b196a4243455603d08f8876b765a258.svg",
+    "static/media/services-5.svg": "/Digiency/static/media/services-5.38c40d761001aea72ddd080d31e81107.svg",
+    "static/media/services-4.svg": "/Digiency/static/media/services-4.73f1e14b00b994fe360345a59aef5528.svg",
+    "static/media/virgul.svg": "/Digiency/static/media/virgul.7cb0a69547dcee9f129fe5c2d416f190.svg",
+    "index.html": "/Digiency/index.html",
+    "static/media/scroll-top.svg": "/Digiency/static/media/scroll-top.a7bcd78d639074d91a8924925ec34316.svg",
+    "main.fadbbc91.css.map": "/Digiency/static/css/main.fadbbc91.css.map",
+    "main.199c5de2.js.map": "/Digiency/static/js/main.199c5de2.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fadbbc91.css",
+    "static/js/main.199c5de2.js"
+  ]
+}
